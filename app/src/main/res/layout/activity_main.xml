@@ -4,11 +4,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/view_pager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/bottom_navigation" />
+    <TextView
+        android:id="@+id/text_favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/text_favorites" />
+
+    <TextView
+        android:id="@+id/text_schedules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/text_schedules"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/text_music"
+        android:visibility="gone" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"
