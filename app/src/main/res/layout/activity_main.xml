@@ -35,6 +35,7 @@
         app:itemBackground="@color/colorPrimary"
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
+        app:layout_behavior=".BottomNavigationBehavior"
         app:menu="@menu/bottom_navigation_main" />
 
 </RelativeLayout>
