@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                                 textMusic.setVisibility(View.VISIBLE);
                                 break;
                         }
-                        return false;
+                        return true;
                     }
                 });
     }
